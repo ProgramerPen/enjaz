@@ -56,6 +56,7 @@
 @media (max-width:1024px){
 .navbar-brand {
     padding-right: 0 !important;
+    width: 20vw;
 }
 .store-card-text {
     font-size: 12px;
@@ -445,6 +446,9 @@
        hue-rotate:(82deg);
        brightness:(106%);
         contrast:(100%);
+}
+.fables-logo-brand {
+    padding-left: 30vw !important;
 }
 .fables-index-products { 
     margin-bottom: 0;

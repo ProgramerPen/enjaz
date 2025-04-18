@@ -1862,7 +1862,9 @@ body{
     position: relative;
     z-index: 999;
 }
-
+.fables-logo{
+    width: 11vw;
+}
 
 .blog-timeline .cd-timeline-content { 
     padding: 0;
