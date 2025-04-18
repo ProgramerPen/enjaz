@@ -301,7 +301,31 @@ $('#fables-testimonial-carousel').owlCarousel({
         });
     
  
-
+        $('#fables-partner-carousel2').owlCarousel({
+            loop:true,
+            dots:true,
+            autoplay:true,
+            margin:20,
+            nav:false,     
+            navText:['<i class="fa fa-chevron-left fables-main-text-color fables-main-border-color fables-partner-nav-icon" aria-hidden="true"></i>' , '<i class="fa fa-chevron-right fables-main-text-color fables-main-border-color fables-partner-nav-icon" aria-hidden="true"></i>'],
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                768:{
+                    items:3
+                },
+                1000:{
+                    items:4
+                },
+                1440:{
+                    items:6
+                }
+                }
+            });
 
 // multi event gallery timeLine
  

@@ -3163,6 +3163,9 @@ li.drop-down>a:hover +.drop-down-ul,
 li.flyout-mega>a:hover +.flyout-mega-wrap{
 	display:block;
 }
+.aboutus-boxes {
+    min-height: 250px;
+}
 /*responsive*/
  @media (min-width:767px){
 	.exo-menu > li > a{
