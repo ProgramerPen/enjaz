@@ -3170,6 +3170,9 @@ li.flyout-mega>a:hover +.flyout-mega-wrap{
 }
 /*responsive*/
  @media (min-width:767px){
+    .enjaz-projects img{
+        height: 35vh;
+    }
 	.exo-menu > li > a{
 	display:block;
 	padding: 0 15px;

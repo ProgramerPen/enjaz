@@ -950,6 +950,7 @@
 
 }
 @media (max-width:991px) {
+
 .top-link {
     font-size: 0;
 }
@@ -1030,10 +1031,16 @@
     margin-left: 0;
 }
 }
+@media (max-width:768px){
+    .fables-logo {
+        width: 30vw;
+        }
+}
 @media (min-width:375px) and (max-width:768px) {
 .gallery-timeline .line::before { 
     left: 7%;  
 }
+
 }
 @media (min-width:992px) and (max-width:1199px) {
 .gallery-title {
